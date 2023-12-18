@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,900&display=swap');
+
+body{
+    font-family: 'Raleway';
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px;
+    font-size: 16px;
+}
+
+#course-content{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.1px solid #33a8d8;
+    border-style: solid none;
+}
+
+
+#course-content h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+
+}
+
+.module {
+    background: #252525;
+    width: 530px;
+    padding: 15px;
+    display: block;
+    border: 1px solid #33A8DB;
+    border-radius: 25px;
+    margin: 0 auto 24px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.module span {
+    color: #33a8d8;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+footer{
+    border: 0.1px solid #33A8DB;
+    border-style: solid none none;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0px;
+    background: linear-gradient(#000000, #33a9d888)
+}
+
+footer .dio-logo{
+    width: 300px;
+}
+
+footer a{color: #33a8d8; font-weight: bold; text-decoration: none;}
