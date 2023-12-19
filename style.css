@@ -1,17 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 body{
     font-family: 'Raleway';
     background-color: black;
+    background-repeat: no-repeat;
     color: whitesmoke;
     margin: 0px;
-    font-size: 16px;
 }
+
+h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient( #65c4ea, #197abb);
+    -webkit-background-clip: text;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+section {
+    margin: 100px, 0;
+}
+
+button{
+    text-transform: uppercase;
+    color: #33a8d8;
+    letter-spacing: 4px;
+    padding: 16px 32px;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 1rem;
+    border-image:linear-gradient( #65c4ea, #197abb);
+    border-image-slice: 10;
+}
+
+.banner{
+    background-image:linear-gradient(rgba(12, 12, 12, 0.6) , rgba(9, 181, 255, 0.2), rgba(41, 41, 41, 0.6)), url(assets/images/banner.png);
+    background-size: cover;
+    height: 550px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33a8d8;
+}
+
+.banner .banner-content{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.logo{
+    margin: auto;
+    width: 228px;
+    height: 228px;
+}
+
+.logo img {
+    object-fit: contain;
+    background-color: #0000005e;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+
 
 #course-content{
     background-color: black;
     color: white;
-    padding: 50px 0px;
+    padding: 50px 200px;
     text-align: center;
     box-sizing: border-box;
     border: 0.1px solid #33a8d8;
@@ -22,7 +90,7 @@ body{
 #course-content h2{
     color: #33A8DB;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: bolder;
     letter-spacing: 4px;
 
 }
@@ -35,15 +103,35 @@ body{
     border: 1px solid #33A8DB;
     border-radius: 25px;
     margin: 0 auto 24px;
-    font-size: 10px;
-    font-weight: bold;
     color: white;
 }
 
 .module span {
     color: #33a8d8;
     font-weight: bold;
-    font-size: 11px;
+}
+
+#transform-world{
+    color: transparent;
+
+}
+
+#professional-challenges{
+    text-align: center;
+    align-items: center;
+    padding: 25px 0;
+    width: 800;
+}
+
+#professional-challenges h2{
+    color: #33A8DB;
+}
+
+#professional-challenges p {
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 85px;
+    font-size: 1rem;
 }
 
 footer{
@@ -51,8 +139,8 @@ footer{
     border-style: solid none none;
     align-items: center;
     text-align: center;
-    padding: 25px 0px;
-    background: linear-gradient(#000000, #33a9d888)
+    padding: 25px;
+    background: linear-gradient(#000000a4 50%, #33a9d836)
 }
 
 footer .dio-logo{
